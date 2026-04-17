@@ -23,40 +23,37 @@
   </header>
 
   <!-- HERO -->
-  <section id="hero">
-  <div class="container hero-container">
+  <section id="hero" class="section">
+    <div class="container hero-container">
 
-    <!-- TEXT -->
-    <div class="hero-text">
-      <h1 class="fade-up">ABDECHCHAFIK Mohamed</h1>
-      <h2 class="fade-up delay-1">Étudiant Ingénieur en Informatique</h2>
-      <p class="fade-up delay-2">
-        Passionné par la cybersécurité et les systèmes intelligents
-      </p>
+      <div class="hero-text">
+        <h1 class="fade-up">ABDECHCHAFIK Mohamed</h1>
+        <h2 class="fade-up delay-1">Étudiant Ingénieur en Informatique</h2>
+        <p class="fade-up delay-2">
+          Passionné par la cybersécurité et les systèmes intelligents
+        </p>
 
-      <div class="hero-buttons fade-up delay-3">
-        <a href="#projects" class="btn primary">Voir mes projets</a>
-        <a href="#" class="btn secondary">Télécharger CV</a>
+        <div class="hero-buttons fade-up delay-3">
+          <a href="#projects" class="btn primary">Voir mes projets</a>
+          <a href="#" class="btn secondary">Télécharger CV</a>
+        </div>
+
+        <div class="hero-icons">
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
       </div>
 
-      <!-- CONTACT ICONS -->
-      <div class="hero-icons">
-        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"><i class="fa-brands fa-github"></i></a>
+      <div class="hero-image">
+        <img src="assets/images/me.jpeg" alt="profile">
       </div>
-    </div>
 
-    <!-- IMAGE -->
-    <div class="hero-image">
-      <img src="assets/images/me.jpeg" alt="profile">
     </div>
-
-  </div>
-</section>
+  </section>
 
   <!-- ABOUT -->
-  <section id="about">
+  <section id="about" class="section">
     <h2>À propos</h2>
     <p>
       Étudiant en informatique et réseaux, passionné par la cybersécurité
@@ -65,115 +62,104 @@
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects">
-  <h2>Projets</h2>
+  <section id="projects" class="section">
+    <h2>Projets</h2>
 
-  <div class="projects-container">
+    <div class="projects-container">
 
-    <div class="card">
-      <h3>SA-SIEM</h3>
-      <p>Système de détection d’anomalies basé sur l’analyse des logs.</p>
-      <a href="#">Voir sur GitHub</a>
+      <div class="card">
+        <h3>SA-SIEM</h3>
+        <p>Système de détection d’anomalies basé sur l’analyse des logs.</p>
+        <a href="#">Voir sur GitHub</a>
+      </div>
+
+      <div class="card">
+        <h3>CAN-Go</h3>
+        <p>Application mobile client-serveur.</p>
+        <a href="#">Voir sur GitHub</a>
+      </div>
+
+      <div class="card">
+        <h3>Bien-Être</h3>
+        <p>Plateforme web avec authentification.</p>
+        <a href="#">Voir sur GitHub</a>
+      </div>
+
     </div>
-
-    <div class="card">
-      <h3>CAN-Go</h3>
-      <p>Application mobile de gestion avec communication client-serveur.</p>
-      <a href="#">Voir sur GitHub</a>
-    </div>
-
-    <div class="card">
-      <h3>Bien-Être</h3>
-      <p>Plateforme web de gestion avec authentification utilisateur.</p>
-      <a href="#">Voir sur GitHub</a>
-    </div>
-
-  </div>
-</section>
+  </section>
 
   <!-- SKILLS -->
-  <section id="skills">
-  <div class="container">
-
+  <section id="skills" class="section">
     <h2>Compétences</h2>
 
-    <!-- Programming -->
-    <div class="skills-group">
-      <h3>Programmation</h3>
-      <div class="skills">
-        <span>Python</span>
-        <span>Java</span>
-        <span>C</span>
-        <span>C++</span>
-        <span>JavaScript</span>
-        <span>PHP</span>
-        <span>TypeScript</span>
-      </div>
-    </div>
+    <div class="skills-grid">
 
-    <!-- Web -->
-    <div class="skills-group">
-      <h3>Développement Web</h3>
-      <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Node.js</span>
-        <span>Laravel</span>
+      <div class="skill-card">
+        <h3>Programmation</h3>
+        <p>C++, Java, Python, JavaScript</p>
       </div>
-    </div>
 
-    <!-- Database -->
-    <div class="skills-group">
-      <h3>Bases de données</h3>
-      <div class="skills">
-        <span>MySQL</span>
-        <span>MongoDB</span>
+      <div class="skill-card">
+        <h3>Web</h3>
+        <p>HTML, CSS, Node.js, Laravel</p>
       </div>
-    </div>
 
-    <!-- Tools -->
-    <div class="skills-group">
-      <h3>Outils & Systèmes</h3>
-      <div class="skills">
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>Linux</span>
-        <span>VS Code</span>
+      <div class="skill-card">
+        <h3>Base de données</h3>
+        <p>MySQL, MongoDB</p>
       </div>
-    </div>
 
-    <!-- Cybersecurity -->
-    <div class="skills-group">
-      <h3>Cybersécurité</h3>
-      <div class="skills">
-        <span>Analyse de logs</span>
-        <span>SIEM (SA-SIEM)</span>
-        <span>Notions sécurité réseau</span>
+      <div class="skill-card">
+        <h3>Outils</h3>
+        <p>Git, Linux, VS Code</p>
       </div>
-    </div>
 
-  </div>
-</section>
+      <div class="skill-card">
+        <h3>Cybersécurité</h3>
+        <p>SIEM, Logs, Réseaux</p>
+      </div>
+
+    </div>
+  </section>
 
   <!-- CONTACT -->
-  <section id="contact">
+  <section id="contact" class="section">
   <h2>Contact</h2>
 
   <div class="contact-container">
-    <p>📧 your@email.com</p>
-    <p>📍 Maroc</p>
 
-    <div class="contact-links">
-      <a href="#">LinkedIn</a>
-      <a href="#">GitHub</a>
+    <div class="contact-info">
+
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <p>your@email.com</p>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>
+          <h4>Localisation</h4>
+          <p>Maroc</p>
+        </div>
+      </div>
+
     </div>
+
+    <div class="contact-socials">
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+
   </div>
 </section>
-
   <script src="script.js"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     lucide.createIcons();
   </script>
+
 </body>
 </html>
